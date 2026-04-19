@@ -147,6 +147,7 @@ def convert_rgb_to_color_space(images: np.ndarray, color_space: str) -> np.ndarr
 
     elif color_space == "gray":
         gray = 0.299 * r + 0.587 * g + 0.114 * b
+        gray = np.expand_dims(gray, 3)
         return np.astype(gray, np.uint8)
 
     else:
