@@ -32,7 +32,7 @@ bằng các công cụ thống kê, so sánh có kiểm soát và thiết kế p
 
 ---
 
-## Cấu trúc thư mục nộp bài
+## Cấu trúc thư mục
 ```bash
 Group_3/
 |-- README.md                                  # Tổng quan, hướng dẫn chạy, link tài nguyên
